@@ -49,7 +49,7 @@ app {
         bankController bc=new bankController();//controller object to validate the data
         bankModel bm = new bankModel();//model object to pass the data
         Scanner scan=new Scanner(in);
-        out.println("\t\t\t------welcome to Anudip Bank------");
+        out.println("\t\t\t------WELCOME TO CANARA BANK------");
         out.println("Enter account Holder Name");
         String accHolderName=scan.next();
         String accHolder;
