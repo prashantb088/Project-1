@@ -1,3 +1,10 @@
+/**
+ * Illustrating banking operations with Regular Expressions and Exception Handling by
+ Prashant Bansal
+ *
+ */
+
+
 package first.bank;
 
 import first.bank.Controller.bankController;
@@ -10,8 +17,8 @@ import static java.lang.System.out;
 public class app {
     public static void main(String[] args){
 
-        bankController bc = new bankController();
-        bankModel bm = new bankModel();
+        bankController bc = new bankController();//controller object to validate the data
+        bankModel bm = new bankModel();//controller object to validate the data
         Scanner ps = new Scanner (System.in);
         out.println("\t\t\t------WELCOME TO CANARA BANK------");
         out.println("Enter account Holder Name");
