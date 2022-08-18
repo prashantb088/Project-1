@@ -47,8 +47,7 @@ public class app {
     }
 }
  catch(Exception e){
-     
- out.println(e.getMessage());
+     out.println(e.getMessage());
       	System.exit(0);
       }
       sc.close();
