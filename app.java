@@ -37,7 +37,7 @@ public class app {
          	        	//VALIDATING PASSWORD
          	        		if(bc.checkPassword(bm))
          	        		{
-         	        			out.println("Enter account number ");
+         	        			      out.println("Enter account number ");
          	        	        int accNumber = scan.nextInt();
          	        	        bm.setAccNumber(accNumber);
          	        	        out.println("Enter Minimum balance");
@@ -50,7 +50,7 @@ public class app {
          	                    while(op<3)
          	                    {
          	                    out.println("Select Operation \n Press 1 for Deposit \n Press 2 for Withdraw \n Press 3 for details \\n Press 4 for exist");
-         	                   op=scan.nextInt();
+         	                    op=scan.nextInt();
          	                    switch(op) {
          	                    //DEPOSIT METHOD
          	                    Case 1->
@@ -79,11 +79,11 @@ public class app {
          	                    	out.println("Enter password to withdraw");
          	                    	String pwd=scan.next();
          	                    	out.println("Enter amount to withdraw");
-     	                    		int newAmt=scan.nextInt();
-     	                    		try {
-     	                    			if(bc.toWithdraw(bm, pwd, newAmt)) {
-     	                    				bm.withdrawAmount(newAmt);
-     	                    				out.println("Withdraw successfull \nyour account balance is : "+bm.getAccBalance());
+     	                    		   int newAmt=scan.nextInt();
+     	                    		   try {
+     	                    			  if(bc.toWithdraw(bm, pwd, newAmt)) {
+     	                    			 	bm.withdrawAmount(newAmt);
+     	                    			 	out.println("Withdraw successfull \nyour account balance is : "+bm.getAccBalance());
      	                    			}
      	                    		}
      	                    		catch(Exception e) {
