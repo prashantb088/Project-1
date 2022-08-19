@@ -1,9 +1,11 @@
+*//Model//
+
 package com.bankapp.model;
 
 public class bankModel {
-	//public void display() {
-	//	System.out.println("this is model ");
-	//}
+	public void display() {
+		System.out.println("this is bankapp");
+	
 	
 	private int accNumber;
 	private int accBalance;
@@ -39,7 +41,6 @@ public class bankModel {
 	public void setAccpassword(String accpassword) {
 		this.accpassword = accpassword;
 	}
-	////////////////////////////////////////////
 	public void depositAmount(int amount) {
 		this.accBalance +=amount;
 	}
